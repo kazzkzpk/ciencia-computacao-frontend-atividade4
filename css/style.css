@@ -595,3 +595,24 @@ legend {
     padding: var(--spacing-4) 0;
     text-align: center;
 }
+
+.form-feedback {
+    color: var(--color-error);
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-bold);
+    margin-top: var(--spacing-1);
+    padding: var(--spacing-1);
+    background-color: #f8d7da;
+    border-radius: var(--border-radius);
+    border: 1px solid var(--color-error);
+}
+
+/* Container de feedback global */
+#form-global-feedback .alert {
+    margin-top: 0;
+}
+
+/* Efeito de transição de página do SPA */
+main {
+    transition: opacity 0.3s ease-in-out;
+}

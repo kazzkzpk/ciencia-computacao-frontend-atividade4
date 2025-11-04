@@ -1,0 +1,36 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Educação para o Futuro",
+      "image": "img/projeto-educacao.jpg",
+      "alt": "Sala de aula com crianças estudando",
+      "description": "Oferecemos reforço escolar, oficinas de leitura e acesso à tecnologia para crianças e adolescentes.",
+      "tags": [
+        { "text": "Educação", "class": "badge-primary" },
+        { "text": "Infantil", "class": "badge-secondary" }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Saúde Comunitária",
+      "image": "img/projeto-saude.jpg",
+      "alt": "Profissional de saúde aferindo pressão",
+      "description": "Levamos atendimento médico e odontológico básico, além de palestras sobre prevenção de doenças.",
+      "tags": [
+        { "text": "Saúde", "class": "badge-primary" },
+        { "text": "Comunidade", "class": "badge-secondary" }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Seja um Voluntário",
+      "image": "img/voluntariado.jpg",
+      "alt": "Grupo de voluntários felizes",
+      "description": "Sua habilidade pode transformar vidas. Temos vagas para voluntários em diversas áreas.",
+      "tags": [
+        { "text": "Voluntariado", "class": "badge-secondary" }
+      ]
+    }
+  ]
+}
