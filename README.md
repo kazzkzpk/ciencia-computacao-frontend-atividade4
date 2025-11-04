@@ -4,5 +4,5 @@
 
 ---
 
-## Atividade 2
-Atividade 1 com CSS.
+## Atividade 3
+Atividade 2 com JS.
