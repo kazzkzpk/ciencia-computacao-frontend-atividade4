@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" data-theme="light">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,7 +15,7 @@
         <header class="main-header">
             <div class="container">
                 <a href="index.html" class="logo">
-                    <img src="img/logo.jpg" alt="Logotipo da ONG Impacto Social">
+                    <img src="img/logo.png" alt="Logotipo da ONG Impacto Social">
                 </a>
 
                 <input type="checkbox" id="menu-toggle">
@@ -32,17 +32,21 @@
                     </li>
                     <li class="menu-item"><a href="cadastro.html" class="menu-link">Cadastro</a></li>
                 </ul>
+                <button id="theme-toggle" class="btn-theme-toggle" aria-label="Ativar modo escuro">
+                    &#127769;
+                </button>
             </nav>
             </div>
         </header>
 
-        <main>
-
+        <main role="main">
             <section class="hero-section" aria-labelledby="titulo-principal">
                 <img src="img/banner-principal.jpg" alt="Crianças sorrindo em uma atividade da ONG">
                 <div class="container hero-content">
-                    <h1 id="titulo-principal">ONG Impacto Social: Mudando Realidades</h1>
-                    <p>Junte-se a nós na missão de construir um futuro mais justo e solidário.</p>
+                    <div class="color-text-banner">
+                        <h1 id="titulo-principal ">ONG Impacto Social: Mudando Realidades</h1>
+                        <p>Junte-se a nós na missão de construir um futuro mais justo e solidário.</p>
+                    </div>
                     <a href="projetos.html" class="btn btn-primary">Saiba Mais</a>
                     <a href="cadastro.html" class="btn btn-secondary">Seja Voluntário</a>
                 </div>
@@ -69,7 +73,7 @@
 
         </main>
 
-        <footer class="main-footer">
+        <footer class="main-footer" role="contentinfo">
             <div class="container">
                 <section aria-labelledby="contato-footer">
                     <h2 id="contato-footer" style="display:none;">Informações de Contato</h2>

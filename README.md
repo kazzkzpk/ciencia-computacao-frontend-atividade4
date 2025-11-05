@@ -4,8 +4,8 @@
 
 ---
 
-## Atividade 3
-Atividade 2 com JS.
+## Atividade 4 (final)
+Atividade 4 com WCAG e otimização produção.
 
 ---
 
