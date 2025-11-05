@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" data-theme="light">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,13 +9,13 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/style.min.css">
     </head>
     <body>
         <header class="main-header">
             <div class="container">
                 <a href="index.html" class="logo">
-                    <img src="img/logo.jpg" alt="Logotipo da ONG Impacto Social">
+                    <img src="img/logo.png" alt="Logotipo da ONG Impacto Social">
                 </a>
                 <input type="checkbox" id="menu-toggle">
                 <label for="menu-toggle" class="menu-toggle-label">&#9776;</label>
@@ -32,13 +32,16 @@
                         </li>
                         <li class="menu-item"><a href="cadastro.html" class="menu-link">Cadastro</a></li>
                     </ul>
+                    <button id="theme-toggle" class="btn-theme-toggle" aria-label="Ativar modo escuro">
+                        &#127769;
+                    </button>
                 </nav>
             </div>
         </header>
 
-        <main>
+        <main role="main">
             <header class="page-header">
-                <div class="container">
+                <div class="container color-text-banner">
                     <h1>Formulário de Cadastro</h1>
                     <p>Preencha o formulário abaixo para se cadastrar como voluntário ou apoiador.</p>
                 </div>
@@ -129,7 +132,7 @@
 
         </main>
 
-        <footer class="main-footer">
+        <footer class="main-footer" role="contentinfo">
             <div class="container">
                 <section aria-labelledby="contato-footer">
                     <h2 id="contato-footer" style="display:none;">Informações de Contato</h2>
@@ -146,6 +149,6 @@
             </div>
         </footer>
 
-        <script src="js/app.js" defer></script>
+        <script src="js/app.min.js" defer></script>
     </body>
 </html>
